@@ -7,23 +7,19 @@
  */
 int main(void)
 {
-	char a;
-	char b;
+	char c;
 
-	a = 'a';
-	b = 'A';
-	while (a <= 'z')
+	c = 'a';
+	while (c <= 'z')
 	{
-		putchar(a);
-		a++;
-	}
-	while (b <= 'Z')
-	{
-		putchar(b);
-		b++;
+		if (c == 'e' || c == 'q')
+		{
+		c++;
+		}
+		putchar(c);
+		c++;
 	}
 	putchar('\n');
 	return (0);
 }
-
 
