@@ -18,10 +18,3 @@ void print_to_98(int n);
 void print_times_table(int n);
 
 #endif /* MAIN_H */
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
